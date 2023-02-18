@@ -1,0 +1,43 @@
+pibli acesso livre
+privado somente no escopo
+protegido O modificador protected torna o membro acessível às classes do mesmo pacote ou através de herança, seus membros herdados não são acessíveis a outras classes fora do pacote em que foram declarados.
+this = fazer referencia do escopo da nossa classe, pode ser variavel ou metodo
+new = estanciar algo
+variaveis primitm/m/ ivas = char, float, boolean, int 
+variaveis n primitivas = objetos
+ 
+Tipos de classes = String, Boolean, Long, Integer, LocalDate, LocalDateTime, Big Decimal, 
+
+sets e gets são metodos
+construtores não retornam
+
+Compose (Composição – conector com um “diamante” preenchido na ponta) – É um tipo de relacionamento onde a classe composta depende de outras classes para “existir”. Por exemplo, a classe “CorpoHumano” possui um composição com a classe “Coracao”. Sem a classe “Coracao”, a classe “CorpoHumano” não pode existir.
+
+Aggregate (Agregação – conector com um “diamante” vazado na ponta) – É um tipo de relacionamento onde a classe agregada usa outra classes para “existir”, mas pode viver sem ela. Por exemplo, a classe “CorpoHumano” possui uma agregação com a classe “Mao”. Sem a “Mao” a classe “CorpoHumano” pode existir.
+
+packages - é um conjunto de classes, que ficam localizadas em um diretório com o mesmo nome do pacote.
+
+classes - conjunto de objetos com características comuns, é como um modelo para a criação de objetos, que tem as mesmas características da classe a qual pertence.
+
+objetos - é o elemento de uma classe, objetos tem variaveis e metodos como também classes.
+
+instância - uma instância de uma classe é um novo objeto criado dessa classe utilizando o operador "new", instânciar uma classe é criar um novo objeto do mesmo tipo dessa classe, uma classe só poderá ser utilizada depois de instânciada.
+
+métodos - ações dos objetos e classes.
+
+variaveis - as variaveis e constantes representam as características dos objetos.
+
+interface - é a declaração de um conjunto de constantes e métodos sem qualquer implementação, usando implements. É um conjunto de requisições que um objeto pode atender.
+
+contrutores - usados para inicializar objetos. É o método que tem o mesmo nome da sua classe, não tem retorno e é chamado pelo operador "new".
+
+
+DIFERÇA ENTRE MÉTODOS E CONSTRUTORES - 
+	A principal diferença entre construtores e métodos é que Construtores criam e inicializam objetos que ainda não existem, enquanto Métodos realizam operações em objetos que já existem.
+
+	Construtores não podem ser chamados diretamente; são chamados de forma implícita quando a palavra chave new cria um objeto.Métodos podem ser chamados diretamente em um objeto que já foi criado com o new.
+
+
+construtor - criar um espaço na memoria
+
+Estudande e = new Estudante(); -> chamando a classe(construtor de) estudante, pode passar ou não um dado
